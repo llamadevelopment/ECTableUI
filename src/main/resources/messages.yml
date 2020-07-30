@@ -1,0 +1,14 @@
+prefix: "§8» §5ECTableUI §8| §7"
+
+# errors
+not.enough.levels: "§cYou don't have enough levels."
+already.enchanted.this: "§cYou've already enchanted this enchantment on your item."
+no.enchantments: "§cThere are no enchantments for this item."
+
+# general
+enchanted: "§aYou've successfully enchanted [0] ([1]) on your item."
+
+# form
+title: "§5Enchant"
+content: "Here you can enchant your item."
+button: "[0] ([1]) for [2] levels"

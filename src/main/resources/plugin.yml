@@ -1,0 +1,6 @@
+name: ECTableUI
+description: I'm too lazy to make a description.
+author: Proxma
+api: 1.0.0
+version: 1.0.0
+main: net.lldv.ectableui.ECTableUI
