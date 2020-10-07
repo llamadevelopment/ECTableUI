@@ -1,7 +1,6 @@
 package net.lldv.ectableui;
 
 import cn.nukkit.block.Block;
-import cn.nukkit.block.BlockID;
 import cn.nukkit.item.Item;
 import cn.nukkit.item.ItemID;
 import cn.nukkit.item.enchantment.Enchantment;
@@ -37,6 +36,7 @@ public class ECTableUI extends PluginBase {
                 enchantmentNames.put(Integer.parseInt(id), (String) obj);
             }
         });
+
     }
 
     public List<Enchantment> getEnchantmentsByItem(Item item) {
