@@ -3,6 +3,7 @@ package net.lldv.ectableui.components.forms.custom;
 import cn.nukkit.Player;
 import cn.nukkit.Server;
 import cn.nukkit.form.element.Element;
+import cn.nukkit.form.element.ElementInput;
 import cn.nukkit.form.response.FormResponseCustom;
 import cn.nukkit.form.window.FormWindowCustom;
 import net.lldv.ectableui.ECTableUI;

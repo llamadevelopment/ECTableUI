@@ -17,8 +17,6 @@ public class ECTableUI extends PluginBase {
     private static ECTableUI instance;
     public static HashMap<Integer, String> enchantmentNames = new HashMap<>();
 
-    // TODO: Generate Enchantment, Error message when no Enchantments Available
-
     @Override
     public void onLoad() {
         instance = this;
@@ -36,7 +34,6 @@ public class ECTableUI extends PluginBase {
                 enchantmentNames.put(Integer.parseInt(id), (String) obj);
             }
         });
-
     }
 
     public List<Enchantment> getEnchantmentsByItem(Item item) {
@@ -50,6 +47,8 @@ public class ECTableUI extends PluginBase {
         if (item.isArmor()) types.add(EnchantmentType.ARMOR);
         if (item.isAxe() || item.isHoe() || item.isPickaxe() || item.isShovel()) types.add(EnchantmentType.DIGGER);
         if (item.isSword()) types.add(EnchantmentType.SWORD);
+        if (item.getId() == ItemID.FISHING_ROD) types.add(EnchantmentType.FISHING_ROD);
+        if (item.getId() == ItemID.TRIDENT) types.add(EnchantmentType.TRIDENT);
         if (item.getId() == ItemID.BOW) types.add(EnchantmentType.BOW);
 
         List<Enchantment> list = new ArrayList<>();

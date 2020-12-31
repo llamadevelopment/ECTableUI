@@ -6,7 +6,7 @@
 
     <groupId>net.lldv</groupId>
     <artifactId>ECTableUI</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
 
     <properties>
